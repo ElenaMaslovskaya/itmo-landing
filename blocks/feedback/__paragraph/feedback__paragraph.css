@@ -1,0 +1,27 @@
+.feedback__paragraph {
+  margin: 23px 0 0;
+  width: calc(100% - 2 * 16px);
+  color: #fff;
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  line-height: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .feedback__paragraph {
+    margin-top: 37px;
+    width: calc(100% - 2 * 39px);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__paragraph {
+    width: calc(100% - 2 * 260px);
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
