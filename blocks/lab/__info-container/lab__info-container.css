@@ -1,0 +1,27 @@
+.lab__info-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 288px;
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 670px){
+    .lab__info-container{
+        grid-template-columns: repeat(2, 1fr);
+        min-width: calc(100% - 2 * 39px);
+        gap: 30px;
+        
+        
+    }
+}
+
+@media screen and (min-width: 1240px){
+    .lab__info-container{
+        grid-template-columns: repeat(2, 1fr);
+        min-width: calc(100% - 2 * 165px);
+        gap: 30px;
+        
+    }
+
+}
