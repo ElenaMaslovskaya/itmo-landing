@@ -1,0 +1,53 @@
+.lab__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background: #FFFFFF;
+    width: 140px;
+    height: 224px;
+    border-radius: 5px;
+    margin:0;
+}
+
+
+@media screen and (min-width: 800px){
+    .lab__card {
+        width: 150px;
+        height: 242px;
+        border-radius: 5.8px;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .lab__card:nth-of-type(1n) {
+        background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../images/lab/Project.png);
+    }
+}
+
+@media screen and (min-width: 800px){
+    .lab__card:nth-of-type(2n){
+        background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../images/lab/Machine\ learning.png);
+    }
+}
+
+@media screen and (min-width: 800px){
+    .lab__card:nth-of-type(3n){
+        background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../images/lab/Data.png);
+    }
+}
+
+@media screen and (min-width: 800px){
+    .lab__card:nth-of-type(4n){
+        background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../../../images/lab/Robot.png);
+    }
+}
+
+@media screen and (min-width: 1125px){
+    .lab__card{
+        width: 255px;
+        height: 430px;
+        border-radius: 10px;
+    }
+}
