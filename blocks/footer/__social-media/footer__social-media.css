@@ -1,0 +1,10 @@
+.footer__social-media {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  transition: .3s linear;
+}
+
+.footer__social-media:hover {
+  opacity: 0.5;
+}

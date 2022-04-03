@@ -1,0 +1,24 @@
+.footer__copyright {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  opacity: 0.5;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__copyright {
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer__copyright {
+    font-size: 14px;
+  }
+}
