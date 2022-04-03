@@ -1,0 +1,20 @@
+.intro {
+   display: block;
+   min-width: 320px;
+   height: auto;
+   padding: 30px 16px;
+   color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (min-width: 670px) {
+   .intro {
+   padding: 58px 40px;
+   }
+}
+
+@media screen and (min-width: 1240px) {
+   .intro {
+      padding: 92px 165px 110px 830px;
+   }
+}
+

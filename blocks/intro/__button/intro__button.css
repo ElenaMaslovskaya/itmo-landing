@@ -1,0 +1,32 @@
+.intro__button {
+   display: inline-block;
+   padding: 11px 16px;
+   width: 286px;
+   background-color: transparent;
+   color: rgba(255, 255, 255, 2);
+   border: 1px solid white;
+   border-radius: 5px;
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+   align-items: center;
+   text-align: center;
+}
+
+@media screen and (min-width: 670px) {
+   .intro__button {
+      width: 330px;
+      font-size: 18px;
+      line-height: 30px;
+   }
+}
+
+@media screen and (min-width: 1240px) {
+   .intro__button {
+      width: 350px;
+      font-size: 20px;
+      padding: 12px 16px;
+   }
+}
