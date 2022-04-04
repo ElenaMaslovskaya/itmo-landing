@@ -1,13 +1,8 @@
 .feedback__input_textarea {
   padding: 10px 10px 108px;
   resize: none;
-}
-
-@media screen and (min-width: 600px) {
-  .feedback__input_textarea {
-    grid-column: 3;
-    grid-row: 1 / span 2;
-  }
+  border: transparent;
+  outline: none;
 }
 
 @media screen and (min-width: 1280px) {
