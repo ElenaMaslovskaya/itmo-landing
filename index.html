@@ -95,46 +95,60 @@
           novalidate
         >
           <!-- First name -->
-          <input 
-            class="feedback__input" 
-            type="text" 
-            id="fname" 
-            name="fname" 
-            placeholder="Имя"
-          >
+          <label class="feedback__field">
+            <input 
+              class="feedback__input" 
+              type="text" 
+              id="fname-input" 
+              name="fname" 
+              placeholder="Имя"
+            >
+            <span class="feedback__input-error fname-input-error"></span>
+          </label>
           <!-- Last name -->
-          <input 
-            class="feedback__input" 
-            type="text" 
-            id="lname" 
-            name="lname" 
-            placeholder="Фамилия"
-          >
+          <label class="feedback__field">
+            <input 
+              class="feedback__input" 
+              type="text" 
+              id="lname-input" 
+              name="lname" 
+              placeholder="Фамилия"
+            >
+            <span class="feedback__input-error lname-input-error"></span>
+          </label>
           <!-- Phone number -->
-          <input 
-            class="feedback__input" 
-            type="tel" 
-            id="phone" 
-            name="phone" 
-            placeholder="Телефон"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-          >
+          <label class="feedback__field">
+            <input 
+              class="feedback__input" 
+              type="tel" 
+              id="phone-input" 
+              name="phone" 
+              placeholder="Телефон"
+            >
+            <span class="feedback__input-error phone-input-error"></span>
+          </label>
           <!-- E-mail -->
-          <input 
-            class="feedback__input" 
-            type="email" 
-            id="email" 
-            name="email" 
-            placeholder="E-mail" 
-            required
-          >
+          <label class="feedback__field">
+            <input 
+              class="feedback__input" 
+              type="email" 
+              id="email-input" 
+              name="email" 
+              placeholder="*E-mail" 
+              required
+            >
+            <span class="feedback__input-error email-input-error"></span>
+          </label>
           <!-- Message -->
-          <textarea
-            class="feedback__input feedback__input_textarea" 
-            id="message" 
-            name="message" 
-            placeholder="Сообщение"
-            required></textarea>
+          <label class="feedback__field feedback__field_textarea">
+            <textarea
+              class="feedback__input feedback__input_textarea" 
+              id="message-input" 
+              name="message" 
+              placeholder="*Сообщение"
+              required></textarea>
+              <span class="feedback__input-error message-input-error"></span>
+          </label>
           <!-- Submit -->
           <button class="feedback__submit-button" type="submit">отправить</button>
         </form>
@@ -245,6 +259,9 @@
       </div>
     </footer>
   </div>
+
+  <!-- Javascript -->
+  <script src="./pages/formValidation.js"></script>
 </body>
 
 </html>
