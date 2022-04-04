@@ -1,0 +1,19 @@
+.progects__select {
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: #009fac 2px solid;
+  background-color: #001337;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .progects__select {
+    display: none;
+  }
+}
