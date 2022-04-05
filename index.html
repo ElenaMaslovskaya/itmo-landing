@@ -11,7 +11,55 @@
 
 <body>
   <div class="root">
-    <header class="header"></header>
+    <header class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="nav__content">
+          <!-- Logo And Hamburger Menu -->
+          <div class="nav__header">
+            <button class="nav__burger-menu">
+              <img class="nav__burger" src="./images/BurgerMenu.svg" alt="">
+            </button>
+            <img class="nav__logo" src="./images/logo.svg" alt="Открыть Меню">
+            <button class="nav__close-button">
+              <img class="nav__close" src="./images/closeButton.svg" alt="Закрыть Меню">
+            </button>
+          </div>
+          <!-- Links -->
+          <ul class="nav__list">
+            <li class="nav__item nav__item_active">
+              <a href="#" class="nav__link nav__link_active">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Лаборатория</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Проекты</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Образование</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Публикации</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Команда</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Связаться</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Info Text -->
+      <div class="header__content">
+        <div class="header__content-info">
+          <h1 class="header__title">Когнитивные технологии, машинное обучение</h1>
+          <p class="header__subtitle">Системы прикладного искусственного интеллекта</p>
+          <button class="header__button">НАШИ ПРОЕКТЫ</button>
+        </div>
+      </div>
+    </header>
     <main class="content">
       <section class="intro"></section>
       <section class="about"></section>

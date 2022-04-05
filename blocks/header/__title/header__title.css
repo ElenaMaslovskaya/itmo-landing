@@ -1,0 +1,17 @@
+.header__title {
+  margin: 30 0 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (min-width:600px) {
+  .header__title {
+    margin-top: 58px;
+    font-size: 54px;
+    line-height: 68px;
+  }
+}

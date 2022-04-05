@@ -1,0 +1,40 @@
+.header__button {
+  margin: 50px 0 77px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 12.5px 16px;
+  box-sizing: border-box;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.header__button:hover {
+  border: 1px solid #009FAC;
+  color: #009FAC;
+}
+
+@media screen and (min-width:600px) {
+  .header__button {
+    margin: 55px 0 135px;
+    padding: 15px 16px;
+    width: 330px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width:1100px) {
+  .header__button {
+    margin: 65px 0 139px;
+    width: 350px;
+  }
+}

@@ -70,3 +70,25 @@ const enableValidation = () => {
 };
 
 enableValidation(); 
+
+// Navigation
+const navMenu = document.querySelector('.nav__burger-menu');
+const navList = document.querySelector('.nav__list');
+const closeButton = document.querySelector('.nav__close-button');
+
+function openMenu() {
+  navList.classList.add('nav__list_show');
+  navMenu.classList.add('nav__burger-menu_hide');
+  closeButton.classList.add('nav__close-button_show')
+  
+}
+
+function closeMenu() {
+  navList.classList.remove('nav__list_show');
+  navMenu.classList.remove('nav__burger-menu_hide');
+  closeButton.classList.remove('nav__close-button_show')
+}
+
+
+navMenu.addEventListener('click', openMenu)
+closeButton.addEventListener('click', closeMenu)

@@ -1,0 +1,18 @@
+.header__content-info {
+  color: #fff;
+  padding-top: 30px;
+  max-width: 288px;
+}
+
+@media screen and (min-width:600px) {
+  .header__content-info {
+    max-width: 445px;
+    padding-top: 58px;
+  }
+}
+
+@media screen and (min-width:1100px) {
+  .header__content-info {
+    padding-top: 92px;
+  }
+}
