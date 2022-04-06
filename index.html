@@ -22,13 +22,13 @@
             </button>
             <img class="nav__logo" src="./images/logo.svg" alt="Открыть Меню">
             <button class="nav__close-button">
-              <img class="nav__close" src="./images/closeButton.svg" alt="Закрыть Меню">
+              <img class="nav__close" src="./images/buttonClose.svg" alt="Закрыть Меню">
             </button>
           </div>
           <!-- Links -->
           <ul class="nav__list">
-            <li class="nav__item nav__item_active">
-              <a href="#" class="nav__link nav__link_active">О нас</a>
+            <li class="nav__item" >
+              <a href="#" class="nav__link">О нас</a>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link">Лаборатория</a>
@@ -45,8 +45,8 @@
             <li class="nav__item">
               <a href="#" class="nav__link">Команда</a>
             </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Связаться</a>
+            <li class="nav__item" id="#contact">
+              <a href="#feedback" class="nav__link">Связаться</a>
             </li>
           </ul>
         </div>
@@ -128,7 +128,7 @@
       <section class="articles"></section>
       <section class="team"></section>
       <section class="partners"></section>
-      <section class="feedback">
+      <section class="feedback" id="feedback">
         <h2 class="feedback__title">всегда на связи</h2>
         <p class="feedback__subtitle">
           По всем интересующим вас вопросам вы всегда можете обратиться по
@@ -202,7 +202,7 @@
         </form>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer section">
       <div class="footer__content">
         <!-- Logo container -->
         <div class="footer__logo-container">

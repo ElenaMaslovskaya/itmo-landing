@@ -89,6 +89,23 @@ function closeMenu() {
   closeButton.classList.remove('nav__close-button_show')
 }
 
-
 navMenu.addEventListener('click', openMenu)
 closeButton.addEventListener('click', closeMenu)
+
+
+// Add active class to the current button 
+
+const navContainer = document.querySelector(".nav__list");
+const navLinkList = navContainer.querySelectorAll(".nav__link");
+
+for (let i = 0; i < navLinkList.length; i++) {
+  navLinkList[i].addEventListener("click", function() {
+  const currentLink = document.querySelectorAll(".nav__link_type_active");
+  if (currentLink.length > 0) { 
+    currentLink[0].className = currentLink[0].className.replace(" nav__link_type_active", "");
+  }
+  this.className += " nav__link_type_active";
+  });
+}
+
+
