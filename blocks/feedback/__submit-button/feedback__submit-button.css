@@ -1,0 +1,40 @@
+.feedback__submit-button {
+  margin-top: 11px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 16px;
+  color: #fff;
+  background: transparent;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.feedback__submit-button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (min-width: 600px) {
+  .feedback__submit-button {
+    grid-column: 1 / span 2; 
+    border-radius: 10px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 783px) {
+  .feedback__submit-button {
+    margin-top: 44px;
+    grid-column: 2;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .feedback__submit-button {
+    margin-top: 37px;
+    font-size: 18px;
+  }
+}
