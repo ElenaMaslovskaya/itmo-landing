@@ -1,0 +1,16 @@
+.nav__close-button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  background-image: url("../../../images/buttonClose.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+@media screen and (min-width:1100px) {
+  .nav__close-button {
+    display: none;
+  }
+}

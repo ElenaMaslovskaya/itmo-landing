@@ -1,0 +1,4 @@
+.nav__list_show {
+  min-height: 100vh;
+  transition: all .3s linear;
+}

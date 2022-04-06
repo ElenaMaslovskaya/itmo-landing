@@ -3,6 +3,17 @@
 
 /* Navigation */
 @import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__content/nav__content.css);
+@import url(../blocks/nav/__header/nav__header.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_show/nav__list_show.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__burger-menu/nav__burger-menu.css);
+@import url(../blocks/nav/__burger-menu/_hide/nav__burger-menu_hide.css);
+@import url(../blocks/nav/__close-button/nav__close-button.css);
+@import url(../blocks/nav/__close-button/_show/nav__close-button_show.css);
+@import url(../blocks/nav/__logo/nav__logo.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
