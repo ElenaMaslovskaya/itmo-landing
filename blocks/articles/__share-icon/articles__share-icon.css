@@ -1,0 +1,5 @@
+.articles__share-icon:active + .articles__share-popup {
+  display: flex;
+  opacity: 1;
+  transition: 1s;
+}

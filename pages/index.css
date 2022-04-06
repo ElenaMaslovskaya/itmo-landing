@@ -1,3 +1,29 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
+
+/* articles */
+@import url(../blocks/articles/articles.css);
+@import url(../blocks/articles/__title/articles__title.css);
+@import url(../blocks/articles/__article/articles__article.css);
+@import url(../blocks/articles/__slider/articles__slider.css);
+@import url(../blocks/articles/__slide/articles__slide.css);
+@import url(../blocks/articles/__topic/articles__topic.css);
+@import url(../blocks/articles/__span/articles__span.css);
+@import url(../blocks/articles/__thumb/articles__thumb.css);
+@import url(../blocks/articles/__title/articles__title.css);
+@import url(../blocks/articles/__topic/articles__topic.css);
+@import url(../blocks/articles/__base/articles__base.css);
+@import url(../blocks/articles/__share/articles__share.css);
+@import url(../blocks/articles/__link/articles__link.css);
+@import url(../blocks/articles/__share-icon/articles__share-icon.css);
+@import url(../blocks/articles/__link-arrow/articles__link-arrow.css);
+@import url(../blocks/articles/__share-popup/articles__share-popup.css);
+@import url(../blocks/articles/__share-popup/_opened/articles__share-popup_opened.css);
+@import url(../blocks/articles/__share-link/articles__share-link.css);
+@import url(../blocks/articles/__share-social/articles__share-social.css);
+@import url(../blocks/articles/__pagination/articles__pagination.css);
+@import url(../blocks/articles/__navigation/articles__navigation.css);
+@import url(../blocks/articles/__navigation/_type/articles__navigation_type_next.css);
+@import url(../blocks/articles/__navigation/_type/articles__navigation_type_prev.css);
+@import url(../blocks/articles/__nav-border/articles__nav-border.css);
