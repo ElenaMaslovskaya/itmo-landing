@@ -12,7 +12,6 @@
 
 .nav__item:hover>.nav__list_dropdown {
   display: block;
-  transition: all 0.3s linear;
 }
 
 
