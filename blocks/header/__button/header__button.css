@@ -6,7 +6,6 @@
   width: 100%;
   padding: 12.5px 16px;
   box-sizing: border-box;
-  color: #fff;
   text-transform: uppercase;
   font-family: 'Open Sans';
   font-style: normal;
@@ -19,7 +18,6 @@
 
 .header__button:hover {
   border: 1px solid #009FAC;
-  color: #009FAC;
 }
 
 @media screen and (min-width:600px) {

@@ -4,8 +4,8 @@
   padding: 0;
   position: absolute;
   top: 50px;
-  padding-top: 30px;
-  display: none;
+  padding-top: 33px;
+  display: none; 
   background: #000D26;
   transition: all 0.3s linear;
 }
