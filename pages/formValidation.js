@@ -105,5 +105,3 @@ for (let i = 0; i < navLinkList.length; i++) {
   this.className += " nav__link_type_active";
   });
 }
-
-

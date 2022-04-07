@@ -32,8 +32,20 @@
             <li class="nav__item">
               <a href="#" class="nav__link">Проекты</a>
             </li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Образование</a>
+            <li class="nav__item drop">
+              <a href="#" class="nav__link nav__link_hide">Образование</a>
+            
+              <input type="checkbox" id="nav__dropdown">
+              <label class="nav__link nav__link_label" for="nav__dropdown">Образование</label>
+            
+              <ul class="nav__list_dropdown">
+                <li class="nav__item_dropdown">
+                  <a href="#" class="nav__link nav__link_dropdown">Магистратура</a>
+                </li>
+                <li class="nav__item_dropdown">
+                  <a href="#" class="nav__link nav__link_dropdown">Аспирантура</a>
+                </li>
+              </ul>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link">Публикации</a>
@@ -43,7 +55,7 @@
             </li>
             <li class="nav__item" id="#contact">
               <a href="#feedback" class="nav__link">Связаться</a>
-            </li>
+            </li> 
           </ul>
         </div>
       </nav>

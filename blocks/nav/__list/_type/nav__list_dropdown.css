@@ -1,0 +1,32 @@
+.nav__list_dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  padding-top: 30px;
+  display: none;
+  background: #000D26;
+  transition: all 0.3s linear;
+}
+
+.nav__item:hover>.nav__list_dropdown {
+  display: block;
+  transition: all 0.3s linear;
+}
+
+
+@media screen and (max-width:1100px) {
+  .nav__list_dropdown {
+    position: static;
+    top: 0;
+    padding-top: 0;
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+  }
+
+  #nav__dropdown:checked~.nav__list_dropdown {
+    max-height: 100vh;
+  }
+}

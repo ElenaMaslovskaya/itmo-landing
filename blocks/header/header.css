@@ -6,6 +6,7 @@
 @media screen and (min-width:600px) {
   .header {
     background: url("../../images/background/BackgroundTablet.png") center/cover no-repeat;
+  
   }
 }
 
