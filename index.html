@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ITMO landing</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./pages/index.css" />
 </head>
 
@@ -14,253 +16,70 @@
     <header class="header"></header>
     <main class="content">
       <section class="intro"></section>
-      <section class="about"></section>
-      <section class="lab">
-        <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
-        <div class="lab__info-container">
-          <div class="lab__image-container">
-            <div src="./images/lab/image 35-min.png" alt="" class="lab__image"></div>
-            <div src="./images/lab/image 38.png" alt="" class="lab__image"></div>
+      <section class="about">
+         <h2 class="about__title">Несколько слов о нас</h2>
+        <p class="about__subtitle">
+          Национальный центр когнитивных разработок – центр национальной 
+          технологической инициативы (НТИ), получивший государственную поддержку 
+          по направлению «Технологии машинного обучения и когнитивные технологии».
+        </p> 
+        <!-- Swiper -->
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img data-src="./images/about/News1.png" class="swiper-lazy" alt="photo">
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img data-src="./images/about/News2.png" class="swiper-lazy" alt="photo">
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img data-src="./images/about/News3.png" class="swiper-lazy" alt="photo">
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img data-src="./images/about/News4.png" class="swiper-lazy" alt="photo">
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img data-src="./images/about/News5.png" class="swiper-lazy" alt="photo">
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img data-src="./images/about/News6.png" class="swiper-lazy" alt="photo">
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
           </div>
-
-          <div class="lab__text-container">
-            <div class="lab__decoration"></div>
-
-            <p class="lab__info">Центр национальной технологической инициативы (НТИ),
-              получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные
-              технологии».</p>
-
-            <p class="lab__info">
-              Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими клиентами,
-              новые решения находят, не задумываясь. Работая таким образом и проявляя гибкость, мы можем поддерживать
-              новый подход для
-              удовлетворения потребностей наших клиентов.
-            </p>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Navigation buttons -->
+          <div class="swiper-button-prev">
+            <img src="./images/arrow-left-about.png" alt="стрелка влево">
           </div>
-        </div>
-
-        <div class="lab__grid">
-          <div class="lab__card">
-            <h3 class="lab__card-title">Анализ социальных данных</h3>
-            <img src="./images/lab/IconProject.svg" alt="Ручки" class="lab__card-pic" />
-            <p class="lab__card-info">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-            <button class="lab__card-button">Подробнее</button>
-          </div>
-
-          <div class="lab__card">
-            <h3 class="lab__card-title">Инфраструктура больших данных</h3>
-            <img src="./images/lab/IconBrain.svg" alt="Схема мозга" class="lab__card-pic" />
-            <p class="lab__card-info">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-            <button class="lab__card-button">Подробнее</button>
-          </div>
-
-          <div class="lab__card">
-            <h3 class="lab__card-title">
-              Облачные<br />
-              вычисления
-            </h3>
-            <img src="./images/lab/IconMicro.svg" alt="Клетка" class="lab__card-pic" />
-            <p class="lab__card-info">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-            <button class="lab__card-button">Подробнее</button>
-          </div>
-
-          <div class="lab__card">
-            <h3 class="lab__card-title">
-              QA<br />
-              истемы
-            </h3>
-            <img src="./images/lab/IconRobot.svg" alt="Робот" class="lab__card-pic" />
-            <p class="lab__card-info">Направление включает в себя исследования и разработки технологий МО и КТ</p>
-            <button class="lab__card-button">Подробнее</button>
+          <div class="swiper-button-next">
+            <img src="./images/arrow-right-about.png" alt="правая стрелка">
           </div>
         </div>
       </section>
+      <section class="lab"></section>
       <section class="projects"></section>
       <section class="education"></section>
       <section class="articles"></section>
       <section class="team"></section>
       <section class="partners"></section>
-      <section class="feedback">
-        <h2 class="feedback__title">всегда на связи</h2>
-        <p class="feedback__subtitle">
-          По всем интересующим вас вопросам вы всегда можете обратиться по
-          указанным телефонам, написать на почту или оставтиь свое сообщение
-          через форму обратной связи.
-        </p>
-        <form 
-          class="feedback__form" 
-          action="#" 
-          method="post" 
-          name="feedback" 
-          novalidate
-        >
-          <!-- First name -->
-          <label class="feedback__field">
-            <input 
-              class="feedback__input" 
-              type="text" 
-              id="fname-input" 
-              name="fname" 
-              placeholder="Имя"
-            >
-            <span class="feedback__input-error fname-input-error"></span>
-          </label>
-          <!-- Last name -->
-          <label class="feedback__field">
-            <input 
-              class="feedback__input" 
-              type="text" 
-              id="lname-input" 
-              name="lname" 
-              placeholder="Фамилия"
-            >
-            <span class="feedback__input-error lname-input-error"></span>
-          </label>
-          <!-- Phone number -->
-          <label class="feedback__field">
-            <input 
-              class="feedback__input" 
-              type="tel" 
-              id="phone-input" 
-              name="phone" 
-              placeholder="Телефон"
-            >
-            <span class="feedback__input-error phone-input-error"></span>
-          </label>
-          <!-- E-mail -->
-          <label class="feedback__field">
-            <input 
-              class="feedback__input" 
-              type="email" 
-              id="email-input" 
-              name="email" 
-              placeholder="*E-mail" 
-              required
-            >
-            <span class="feedback__input-error email-input-error"></span>
-          </label>
-          <!-- Message -->
-          <label class="feedback__field feedback__field_textarea">
-            <textarea
-              class="feedback__input feedback__input_textarea" 
-              id="message-input" 
-              name="message" 
-              placeholder="*Сообщение"
-              required></textarea>
-              <span class="feedback__input-error message-input-error"></span>
-          </label>
-          <!-- Submit -->
-          <button class="feedback__submit-button" type="submit">отправить</button>
-        </form>
-      </section>
+      <section class="feedback"></section>
     </main>
-    <footer class="footer">
-      <div class="footer__content">
-        <!-- Logo container -->
-        <div class="footer__logo-container">
-          <img class="footer__logo" src="./images/logo.svg" alt="Логотип: Университет ИТМО">
-          <p class="footer__info-copyright">Информация © 2020 Университет ИТМО</p>
-        </div>
-        <!-- Footer information -->
-        <div class="footer__info">
-          <p class="footer__description">
-            Национальный центр когнитивных разработок – центр национальной технологической
-            инициативы (НТИ), получивший государственную поддержку по направлению
-            «Технологии машинного обучения и когнитивные технологии». Инфраструктурная
-            основа взаимодействия научных, образовательных и промышленных организаций
-          </p>
-          <!-- About -->
-          <nav class="footer__nav">
-            <ul class="footer__list">
-              <li class="footer__item">
-                О центре
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">О нас</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Главная</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Команда</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Лаборатория</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Контакты</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- Development -->
-          <nav class="footer__nav">
-            <ul class="footer__list">
-              <li class="footer__item">
-                Развитие
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Образование</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Аспирантура</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Магистратура</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Публикации</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Проекты</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- Contacts -->
-          <address class="footer__contact-container">
-            <p class="footer__address">г.Санкт-Петербург</p>
-            <p class="footer__address">199034, Санкт-Петербург,</p>
-            <p class="footer__address">Биржевая линия, д. 4, лит. М, ауд. 302С</p>
-            <div class="footer__number-container">
-              <p class="footer__number">+7 (812) 337-64-90</p>
-              <p class="footer__number">+7 (812) 337-64-94</p>
-            </div>
-            <p class="footer__address">anna.lutsenko@itmo.ru</p>
-            <!-- Social media -->
-            <ul class="footer__social-media-list">
-              <li>
-                <a href="#" target="_blank">
-                  <img class="footer__social-media" src="./images/socials/VK.svg" alt="Логотип: ВКонтакте">
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <img class="footer__social-media" src="./images/socials/Facebook.svg" alt="Логотип: Facebook">
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <img class="footer__social-media" src="./images/socials/Telegram.svg" alt="Логотип: Telegram">
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <img class="footer__social-media" src="./images/socials/Insta.svg" alt="Логотип: Instagram">
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank">
-                  <img class="footer__social-media" src="./images/socials/YouTube.svg" alt="Логотип: YouTube">
-                </a>
-              </li>
-            </ul>
-          </address>
-        </div>
-        <p class="footer__copyright">Сделано студентами Яндекс. Практикума</p>
-      </div>
-    </footer>
+    <footer class="footer"></footer>
   </div>
 
   <!-- Javascript -->
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./pages/swiperAbout.js"></script>
   <script src="./pages/formValidation.js"></script>
 </body>
 

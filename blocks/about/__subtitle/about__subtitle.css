@@ -1,0 +1,28 @@
+.about__subtitle {
+  width: calc(100% - 2 * 16px);
+  margin: 12px 0 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  .about__subtitle {
+    width: calc(100% - 2 * 39px);
+    margin: 30px 0;
+    font-size: 14px;
+    line-height: 20px; 
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .about__subtitle {
+    max-width: 907px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
