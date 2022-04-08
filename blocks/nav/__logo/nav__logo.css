@@ -1,0 +1,18 @@
+.nav__logo {
+  width: 71px;
+  height: 24px;
+  transition: .3s linear;
+  cursor: pointer;
+}
+
+.nav__logo:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width:1100px) {
+  .nav__logo {
+    width: 150px;
+    height: 54px;
+    margin-right: 135px;
+  }
+}

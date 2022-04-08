@@ -1,0 +1,17 @@
+.header {
+  max-width: 100%;
+  background: url("../../images/background/BackgroundMobile.png") center/cover no-repeat;
+}
+
+@media screen and (min-width:600px) {
+  .header {
+    background: url("../../images/background/BackgroundTablet.png") center/cover no-repeat;
+  
+  }
+}
+
+@media screen and (min-width:1100px) {
+  .header {
+    background: url("../../images/background/BackgroundDesktop.png") center/cover no-repeat;
+  }
+}

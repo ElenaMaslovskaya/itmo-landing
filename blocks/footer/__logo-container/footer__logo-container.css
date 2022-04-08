@@ -1,0 +1,9 @@
+.footer__logo-container {
+  display: flex;
+}
+
+@media screen and (min-width: 700px) {
+  .footer__logo-container {
+    flex-direction: column;
+  }
+}

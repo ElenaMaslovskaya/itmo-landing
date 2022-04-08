@@ -1,0 +1,18 @@
+.nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all .3s linear;
+  height: 0; 
+  overflow: hidden;
+}
+
+@media screen and (min-width:1100px) {
+  .nav__list {
+    height: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 825px;
+  }
+}

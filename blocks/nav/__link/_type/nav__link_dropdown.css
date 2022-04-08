@@ -1,0 +1,18 @@
+.nav__link_dropdown {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  transition: all .3s linear;
+  display: block;
+}
+
+@media screen and (min-width:1100px) {
+  .nav__link_dropdown {
+    padding: 10px;
+    max-width: 100px;
+    position: relative;
+  }
+}
