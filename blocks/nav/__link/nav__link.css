@@ -15,6 +15,7 @@
     max-width: 100px;
     position: relative;
   }
+
   .nav__link::after {
     content: '';
     position: absolute;
@@ -24,17 +25,17 @@
     left: 0; 
     bottom: 0;
     border-radius: 2px;
-    transform: scale(0, 1);
+    transform: scale(0, 1);   
     transition: transform .3s ease;
   }
+
   .nav__link:hover::after {
-    transform: scale(1, 1);
+    transform: scale(1, 1); 
     z-index: 3;
   }  
-  .nav__link_type_active {
-    background: #009FAC;
-    border-radius: 10px;  
-    font-weight: 600;
-    font-size: 14px;
-  }    
+ 
+ .nav__link_type_active {
+    background-color: #009FAC;
+    border-radius: 2px;  
+  }      
 }

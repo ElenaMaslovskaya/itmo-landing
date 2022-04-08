@@ -1,5 +1,4 @@
 .feedback__field {
   display: flex;
   flex-direction: column; 
-  max-width: 288px;
 }

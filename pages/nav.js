@@ -22,23 +22,21 @@ navMenuButton.addEventListener('click', openMenu)
 navCloseButton.addEventListener('click', closeMenu)
 
 
-
-
 // Navigate to specific section
-/*
 navLinkList.forEach(function(link) {
   link.addEventListener('click', function(e) {
+    /*
     e.preventDefault();
 
-    const id = e.currentTarget.getAttribute('href').slice(1);
-    const element = document.getElementById(id);
+    const linkId = e.currentTarget.getAttribute('href').slice(1);
+    const linkElement = document.getElementById(linkId);
 
     
     const navbar = document.getElementById('nav');
     const navbarHeight = navbar.getBoundingClientRect().height;
     
     const navListHeight = navList.getBoundingClientRect().height;
-    let position = element.offsetTop - navbarHeight;
+    let position = linkElement.offsetTop - navbarHeight;
 
     
     if (navbarHeight > 82) {
@@ -49,10 +47,10 @@ navLinkList.forEach(function(link) {
       left: 0,
       top: position,
     });
+    */
+    closeMenu()
   })
 })
-*/
-
 
 // Add active class to the current button 
 for (let i = 0; i < navLinkList.length; i++) {
