@@ -1,0 +1,13 @@
+@media screen and (min-width: 600px) {
+  .feedback__field_textarea {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+  }
+}
+
+@media screen and (min-width: 783px) {
+  .feedback__field_textarea {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+}
