@@ -23,9 +23,10 @@ navCloseButton.addEventListener('click', closeMenu)
 
 
 // Navigate to specific section
+/*
 navLinkList.forEach(function(link) {
   link.addEventListener('click', function(e) {
-    /*
+    
     e.preventDefault();
 
     const linkId = e.currentTarget.getAttribute('href').slice(1);
@@ -47,11 +48,11 @@ navLinkList.forEach(function(link) {
       left: 0,
       top: position,
     });
-    */
+  
     closeMenu()
   })
 })
-
+*/
 // Add active class to the current button 
 for (let i = 0; i < navLinkList.length; i++) {
   navLinkList[i].addEventListener('click', function() {
