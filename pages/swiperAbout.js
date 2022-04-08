@@ -1,6 +1,7 @@
 const swiper = new Swiper('.swiper', {
+  
   slidesPerView: 3,
-  spaceBetween: 2,
+  //spaceBetween: 2,
   slidesPerGroup: 3,
   loop: true,
   loopFillGroupWithBlank: true,
@@ -33,18 +34,4 @@ const swiper = new Swiper('.swiper', {
 
   // Height
   autoHeight: true,
-  //Responsive breakpoints
-  // breakpoints: {
-  //     640: {
-  //           slidesPerView: 1,
-            
-  //         },
-  //         768: {
-  //           slidesPerView: 2,
-            
-  //         },
-  //         1024: {
-  //           slidesPerView: 3,
-  //         },
-  //       }
 });
