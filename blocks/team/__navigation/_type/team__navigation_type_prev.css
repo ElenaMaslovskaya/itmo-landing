@@ -1,0 +1,25 @@
+.team .team__navigation_type_prev {
+  display: none;
+}
+
+@media screen and (min-width: 1282px) {
+  .team .team__navigation_type_prev {
+    display: flex;
+    left: 0;
+    width: 60px;
+    height: 60px;
+  }
+
+  .team .team__navigation_type_prev::after {
+    content: url(../../../../images/team/arrow.svg);
+    transform: rotate(0.5turn);
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+    border-radius: 36px;
+  }
+
+  .team .team__navigation_type_prev:hover::after {
+    content: url(../../../../images/team/arrowHover.svg);
+  }
+}
