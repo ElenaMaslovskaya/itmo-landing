@@ -1,0 +1,23 @@
+.education__list-item:before{
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 3px;
+    vertical-align:middle;
+    border-radius: 50%;
+    background-color:#000;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .education__list-item{
+       padding-bottom: 5px;
+}
+}
+
+@media screen and (min-width: 1280px){
+    .education__list-item{
+       padding-bottom: 5px;
+}
+}
+

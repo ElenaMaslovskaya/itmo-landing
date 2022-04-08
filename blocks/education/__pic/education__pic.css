@@ -1,0 +1,31 @@
+.eduction__pic{
+    width: 256px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 16px 16px 12px;
+    object-fit: contain;
+}
+
+
+@media screen and (min-width: 768px){
+    .eduction__pic{
+        width: 280px;
+        height: 282px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 20px 20px 20px 30px;
+}
+}
+
+@media screen and (min-width: 1280px){
+    .eduction__pic{
+        width: 445px;
+        height: 364px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 30px 30px 35px 30px;
+}
+}
+
+
+

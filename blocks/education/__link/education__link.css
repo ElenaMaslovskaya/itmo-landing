@@ -1,0 +1,30 @@
+.education__link{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #000D26;
+}
+
+.education__link::after{
+    content: url(../../../images/ArrowRight.svg);
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+
+@media screen and (min-width: 1280px){
+    .education__link::after{
+        vertical-align: -20%;
+        width: 50px;
+        }
+    }
+
+@media screen and (min-width: 1280px){
+    .education__link{
+        font-size: 18px;
+        line-height: 30px; 
+    }
+    }
