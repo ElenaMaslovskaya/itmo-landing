@@ -1,0 +1,23 @@
+.articles__share-popup {
+  background-image: url(../../../images/articles/Modal.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 184px 64px;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  margin: 0;
+  padding: 16px 16px 24px;
+  justify-content: space-between;
+  height: 64px;
+  width: 184px;
+  top: -56px;
+  right: -64px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .articles__share-popup {
+    right: -60px;
+  }
+}

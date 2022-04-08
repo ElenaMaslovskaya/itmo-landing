@@ -1,0 +1,9 @@
+.articles__navigation {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .articles__navigation {
+    display: inline-block;
+  }
+}

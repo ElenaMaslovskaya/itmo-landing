@@ -1,0 +1,18 @@
+.articles {
+  background-color: #e0f0ff;
+  padding: 40px 0 0;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .articles {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .articles {
+    padding-top: 80px;
+  }
+}

@@ -1,0 +1,26 @@
+.articles__share {
+  margin: 0;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  vertical-align: middle;
+  position: relative;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+
+@media screen and (min-width: 768px) {
+  .articles__share {
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .articles__share {
+    visibility: hidden;
+    opacity: 0;
+  }
+}

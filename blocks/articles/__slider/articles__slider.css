@@ -1,0 +1,22 @@
+.articles__slider {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+}
+.articles .swiper {
+  padding-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .articles__slider {
+    height: 1120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .articles .swiper {
+    height: 1190px;
+    width: 1134px; /*1134*/
+    overflow: hidden;
+  }
+}

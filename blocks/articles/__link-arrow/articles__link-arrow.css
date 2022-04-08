@@ -1,0 +1,10 @@
+.articles__link-arrow {
+  margin-left: 8px;
+  transition: transform 0.2s;
+}
+
+@media screen and (min-width: 768px) {
+  .articles__link-arrow {
+    margin-left: 12px;
+  }
+}
