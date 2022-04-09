@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+  .projects-grid__item_company_gazprom {
+    background-image: url(../../../../images/projects/project_gazprom.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

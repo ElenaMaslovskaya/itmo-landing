@@ -78,3 +78,21 @@
 @import url(../blocks/footer/__social-media-list/footer__social-media-list.css);
 @import url(../blocks/footer/__social-media/footer__social-media.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* Progects */
+@import url(../blocks/projects/__container/projects__container.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects-grid/projects-grid.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__select/progects__select.css);
+@import url(../blocks/projects/__select-option/progects__select-option.css);
+@import url(../blocks/projects/__filters/projects__filters.css);
+@import url(../blocks/projects/__filter-item/projects__filter-item.css);
+@import url(../blocks/projects-grid/__logo/projects-grid__logo.css);
+@import url(../blocks/projects-grid/__item/projects-grid__item.css);
+@import url(../blocks/projects-grid/__caption/projects-grid__caption.css);
+@import url(../blocks/projects-grid/__btn/projects-grid__btn.css);
+@import url(../blocks/projects-grid/__item/_company/projects-grid__item_company_gazprom.css);
+@import url(../blocks/projects-grid/__item/_company/projects-grid__item_company_sberbank.css);
+@import url(../blocks/projects/__filter-item/_activ/projects__filter-item_activ.css);
+

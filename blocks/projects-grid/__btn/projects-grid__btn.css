@@ -1,0 +1,29 @@
+.projects-grid__btn {
+  background-color: transparent;
+  background-image: url(../../../images/projects/Button\ round.svg);
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-style: none;
+  padding: 0;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 10px 10px 0;
+  align-self: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .projects-grid__btn {
+    width: 32px;
+    height: 32px;
+    margin: 0 16px 16px 0;
+  }
+}
+@media screen and (min-width: 1125px) {
+  .projects-grid__btn {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px 20px 0;
+  }
+}
