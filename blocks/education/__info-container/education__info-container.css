@@ -1,5 +1,5 @@
 .education__info-container{
-    width: 288px;
+    min-width: calc(100% - 16px*2);
     background-color: white;
     border-radius: 5px;
     display: flex;
