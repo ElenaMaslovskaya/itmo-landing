@@ -1,0 +1,13 @@
+.team__job-title {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .team__job-title {
+    display: inline;
+    visibility: visible;
+    opacity: 1;
+  }
+}

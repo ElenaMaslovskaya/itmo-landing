@@ -1,0 +1,26 @@
+.team__slider .swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  line-height: 1;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.team__slider .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+@media screen and (min-width: 468px) {
+  .team__slider .swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+  .team__slider
+    .swiper-horizontal
+    > .swiper-pagination-bullets
+    .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    margin: 0 6px !important;
+  }
+}

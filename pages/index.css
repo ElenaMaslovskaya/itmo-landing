@@ -28,8 +28,10 @@
 @import url(../blocks/articles/__navigation/_type/articles__navigation_type_prev.css);
 @import url(../blocks/articles/__nav-border/articles__nav-border.css);
 
-/* Lab*/
+/* root */
 @import url(../blocks/root/root.css);
+
+/* Lab */
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/__titile/lab__title.css);
 @import url(../blocks/lab/__info/lab__info.css);
@@ -44,6 +46,23 @@
 @import url(../blocks/lab/__decoration/lab__decoration.css);
 @import url(../blocks/lab/__card-title/lab__card-title.css);
 @import url(../blocks/lab/__card-pic/lab__card-pic.css);
+
+/* Team */
+
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__title/team__title.css);
+@import url(../blocks/team/__slider/team__slider.css);
+@import url(../blocks/team/__slide/team__slide.css);
+@import url(../blocks/team/__img/team__img.css);
+@import url(../blocks/team/__name/team__name.css);
+@import url(../blocks/team/__job/team__job.css);
+@import url(../blocks/team/__job-title/team__job-title.css);
+@import url(../blocks/team/__wrapper/team__wrapper.css);
+@import url(../blocks/team/__pagination/team__pagination.css);
+@import url(../blocks/team/__name-surname/team__name-surname.css);
+@import url(../blocks/team/__nav-border/team__nav-border.css);
+@import url(../blocks/team/__navigation/_type/team__navigation_type_next.css);
+@import url(../blocks/team/__navigation/_type/team__navigation_type_prev.css);
 
 /* Feedback */
 @import url(../blocks/feedback/feedback.css);
@@ -79,7 +98,8 @@
 @import url(../blocks/footer/__social-media/footer__social-media.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-/* Progects */
+
+/* Projects */
 @import url(../blocks/projects/__container/projects__container.css);
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects-grid/projects-grid.css);

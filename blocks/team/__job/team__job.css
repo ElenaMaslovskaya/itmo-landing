@@ -1,0 +1,27 @@
+.team__job {
+  color: #009fac;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .team__job {
+    font-size: 12px;
+    line-height: 1.45;
+    margin-left: -6px;
+    margin-right: -6px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .team__job {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+}

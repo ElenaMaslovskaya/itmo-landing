@@ -1,0 +1,22 @@
+.team__wrapper {
+  box-sizing: border-box;
+  padding: 20px 16px 25px;
+}
+
+@media screen and (min-width: 468px) {
+  .team__wrapper {
+    padding-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team__wrapper {
+    padding: 30px 39px 45px;
+  }
+}
+
+@media screen and (min-width: 1282px) {
+  .team__wrapper {
+    padding: 0;
+  }
+}
