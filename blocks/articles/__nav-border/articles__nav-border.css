@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .articles__nav-border {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .articles__nav-border {
+    max-width: 1120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .articles__nav-border {
+    max-width: 1262px;
+  }
+}
