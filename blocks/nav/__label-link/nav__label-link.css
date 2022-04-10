@@ -8,10 +8,6 @@
   padding: 15px 0;
 }
 
-.nav__label-:hover {
-  background: #001337;
-}
-
 input[type="checkbox"] {
   display: none;
 }

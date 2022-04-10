@@ -6,6 +6,12 @@
   background-image: url("../../../images/BurgerMenu.svg");
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: all .3s linear;
+}
+
+.nav__burger-menu:hover{
+  opacity: 0.5;
+  transform: scale(1.1);
 }
 
 @media screen and (min-width:1100px) {

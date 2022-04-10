@@ -2,7 +2,8 @@
 const navMenuButton = document.querySelector('.nav__burger-menu');
 const navCloseButton = document.querySelector('.nav__close-button');
 const navList = document.querySelector('.nav__list');
-const navLinkList = navList.querySelectorAll(".nav__link");
+const navLinkList = navList.querySelectorAll('.nav__link');
+const labelDropdown = document.querySelector('.nav__label-link');
 
 
 // Open and Close Navigation
@@ -16,7 +17,7 @@ function openMenu() {
 function closeMenu() {
   navList.classList.remove('nav__list_show');
   navMenuButton.classList.remove('nav__burger-menu_hide');
-  navCloseButton.classList.remove('nav__close-button_show')
+  navCloseButton.classList.remove('nav__close-button_show');
 }
 
 navMenuButton.addEventListener('click', openMenu)
@@ -63,3 +64,7 @@ for (let i = 0; i < navLinkList.length; i++) {
     this.className += ' nav__link_type_active';
   });
 }
+
+
+
+

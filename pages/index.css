@@ -9,6 +9,7 @@
 @import url(../blocks/nav/__list/_type/nav__list_show.css);
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__link/_color/nav__link_color_grey.css);
 @import url(../blocks/nav/__link/_type/nav__link_type_active.css);
 @import url(../blocks/nav/__link/_type/nav__link_hide.css);
 @import url(../blocks/nav/__label-link/nav__label-link.css);

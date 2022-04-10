@@ -7,7 +7,7 @@
   padding-top: 33px;
   display: none;
   background: #000D26;
-  transition: all 0.3s linear;
+  transition: all .5s ease;
 }
 
 .nav__item:hover>.nav__dropdown-list {
