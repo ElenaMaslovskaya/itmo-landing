@@ -1,4 +1,7 @@
 .nav__list_show {
   min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
   transition: all .3s linear;
 }

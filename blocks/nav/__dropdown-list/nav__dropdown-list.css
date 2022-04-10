@@ -1,22 +1,22 @@
-.nav__list_dropdown {
+.nav__dropdown-list {
   list-style: none;
   margin: 0;
   padding: 0;
   position: absolute;
   top: 50px;
   padding-top: 33px;
-  display: none; 
+  display: none;
   background: #000D26;
   transition: all 0.3s linear;
 }
 
-.nav__item:hover>.nav__list_dropdown {
+.nav__item:hover>.nav__dropdown-list {
   display: block;
 }
 
 
 @media screen and (max-width:1100px) {
-  .nav__list_dropdown {
+  .nav__dropdown-list {
     position: static;
     top: 0;
     padding-top: 0;
@@ -25,7 +25,7 @@
     overflow: hidden;
   }
 
-  #nav__dropdown:checked~.nav__list_dropdown {
+  #nav__dropdown:checked~.nav__dropdown-list {
     max-height: 100vh;
   }
 }

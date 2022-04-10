@@ -57,7 +57,6 @@ navLinkList.forEach(function(link) {
 for (let i = 0; i < navLinkList.length; i++) {
     navLinkList[i].addEventListener('click', function() {
     const currentLink = document.querySelectorAll('.nav__link_type_active');
-    
     if (currentLink.length > 0) { 
       currentLink[0].className = currentLink[0].className.replace(' nav__link_type_active', '');
     }
