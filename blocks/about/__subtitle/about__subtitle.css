@@ -1,6 +1,6 @@
 .about__subtitle {
   width: calc(100% - 2 * 16px);
-  margin: 12px 0 20px;
+  margin: 12px auto 20px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -12,7 +12,7 @@
 @media screen and (min-width: 600px) {
   .about__subtitle {
     width: calc(100% - 2 * 39px);
-    margin: 30px 0;
+    margin: 30px auto;
     font-size: 14px;
     line-height: 20px; 
     letter-spacing: 0.1px;
