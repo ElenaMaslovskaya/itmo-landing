@@ -1,0 +1,25 @@
+.partners__title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  .partners__title {
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .partners__title {
+    font-size: 36px;
+    line-height: 68px;
+  }
+}

@@ -1,0 +1,26 @@
+.partners__labels {
+  padding: 40px 0;
+  margin: 0 -10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  row-gap: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .partners__labels {
+    margin: 0;
+    padding: 60px 0;
+    gap: 30px 50px;
+  }
+}
+
+@media screen and (min-width: 1114px) {
+  .partners__labels {
+    max-width: 1110px;
+    margin: 0 auto;
+    row-gap: 50px;
+    padding: 100px 0 80px;
+  }
+}

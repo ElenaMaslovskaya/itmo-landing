@@ -1,4 +1,4 @@
 .team {
-  background-color: #e0f0ff;
+  background: linear-gradient(to bottom, #e0f0ff 50%, #001337 50%);
   min-width: 320px;
 }
