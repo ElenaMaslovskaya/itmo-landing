@@ -9,9 +9,9 @@
 @import url(../blocks/nav/__list/_type/nav__list_dropdown.css);
 @import url(../blocks/nav/__list/_type/nav__list_show.css);
 @import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__label-link/nav__label-link.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__link/_type/nav__link_dropdown.css);
-@import url(../blocks/nav/__link/_type/nav__link_label.css);
 @import url(../blocks/nav/__link/_type/nav__link_hide.css);
 @import url(../blocks/nav/__item/_type/nav__item_dropdown.css);
 @import url(../blocks/nav/__burger-menu/nav__burger-menu.css);

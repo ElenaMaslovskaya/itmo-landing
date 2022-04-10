@@ -1,6 +1,10 @@
 .nav__link_label {
   color: #fff;
   display: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 input[type="checkbox"] {

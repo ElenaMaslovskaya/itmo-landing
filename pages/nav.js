@@ -1,10 +1,11 @@
-// Navigation
+// Constants
 const navMenuButton = document.querySelector('.nav__burger-menu');
 const navCloseButton = document.querySelector('.nav__close-button');
 const navList = document.querySelector('.nav__list');
 const navLinkList = navList.querySelectorAll(".nav__link");
 
 
+// Open and Close Navigation
 function openMenu() {
   navList.classList.add('nav__list_show');
   navMenuButton.classList.add('nav__burger-menu_hide');
@@ -22,24 +23,22 @@ navMenuButton.addEventListener('click', openMenu)
 navCloseButton.addEventListener('click', closeMenu)
 
 
-// Navigate to specific section
-/*
+// Navigate to specific values
 navLinkList.forEach(function(link) {
   link.addEventListener('click', function(e) {
     
     e.preventDefault();
 
     const linkId = e.currentTarget.getAttribute('href').slice(1);
-    const linkElement = document.getElementById(linkId);
+    const linkValue = document.getElementById(linkId);
 
-    
     const navbar = document.getElementById('nav');
     const navbarHeight = navbar.getBoundingClientRect().height;
     
     const navListHeight = navList.getBoundingClientRect().height;
-    let position = linkElement.offsetTop - navbarHeight;
+    let position = linkValue.offsetTop - navbarHeight;
 
-    
+    // Mobile 
     if (navbarHeight > 82) {
       position = position + navListHeight;
     }
@@ -47,19 +46,21 @@ navLinkList.forEach(function(link) {
     window.scrollTo({
       left: 0,
       top: position,
+      behavior: 'smooth'
     });
   
     closeMenu()
   })
 })
-*/
+
 // Add active class to the current button 
 for (let i = 0; i < navLinkList.length; i++) {
-  navLinkList[i].addEventListener('click', function() {
-  const currentLink = document.querySelectorAll('.nav__link_type_active');
-  if (currentLink.length > 0) { 
-    currentLink[0].className = currentLink[0].className.replace(' nav__link_type_active', '');
-  }
-  this.className += ' nav__link_type_active';
+    navLinkList[i].addEventListener('click', function() {
+    const currentLink = document.querySelectorAll('.nav__link_type_active');
+    
+    if (currentLink.length > 0) { 
+      currentLink[0].className = currentLink[0].className.replace(' nav__link_type_active', '');
+    }
+    this.className += ' nav__link_type_active';
   });
 }
