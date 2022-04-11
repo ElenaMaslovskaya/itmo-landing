@@ -1,0 +1,23 @@
+.articles .swiper-button-next {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .articles .swiper-button-next {
+    display: flex;
+  }
+  .articles .articles__navigation_type_next::after {
+    content: url(../../../../images/articles/arrow.svg);
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 36px;
+  }
+
+  .articles .articles__navigation_type_next:hover::after {
+    content: url(../../../../images/articles/arrowhover.svg);
+  }
+  .articles .swiper-button-next {
+    right: 20px;
+  }
+}

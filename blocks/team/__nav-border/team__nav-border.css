@@ -1,0 +1,7 @@
+@media screen and (min-width: 1282px) {
+  .team__nav-border {
+    max-width: 1262px;
+    margin: 0 auto;
+    position: relative;
+  }
+}

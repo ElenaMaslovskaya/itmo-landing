@@ -1,0 +1,11 @@
+.team__slider {
+  margin: 0;
+}
+
+@media screen and (min-width: 1282px) {
+  .team .swiper {
+    box-sizing: border-box;
+    width: 1142px;
+    padding: 40px 16px 45px;
+  }
+}

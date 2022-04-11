@@ -1,0 +1,18 @@
+.projects__filter-item {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 172px;
+  height: 44px;
+}
+
+@media screen and (min-width: 1125px) {
+  .projects__filter-item {
+    width: 254px;
+    height: 43px;
+    display: flex;
+  }
+}

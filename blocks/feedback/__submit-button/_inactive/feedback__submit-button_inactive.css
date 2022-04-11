@@ -1,0 +1,4 @@
+.feedback__submit-button_inactive {
+  opacity: 0.8;
+  cursor: default;
+}
