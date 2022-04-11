@@ -1,4 +1,17 @@
 .team {
   background: linear-gradient(to bottom, #e0f0ff 50%, #001337 50%);
   min-width: 320px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 600px) {
+  .team {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1282px) {
+  .team {
+    padding-top: 80px;
+  }
 }

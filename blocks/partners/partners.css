@@ -1,6 +1,8 @@
 .partners {
   background-color: #001337;
   padding: 54px 16px 0;
+  min-width: 320px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 600px) {
