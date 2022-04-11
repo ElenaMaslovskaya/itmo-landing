@@ -1,21 +1,24 @@
 const swiper = new Swiper(".swiper", {
   autoHeight: true,
-  
-  grabCursor:true,
+  // Mousewheel control
   mousewheel: true,
+  // Grab cursor
   grabCursor: true,
+  // Keyboard control
   keyboard: {
     enabled: true,
   },
-       
+  // Navigation
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  // Pagination
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+  // Responsive breakpoints
   breakpoints: {
     300: {
       slidesPerView: 'auto',
@@ -23,11 +26,9 @@ const swiper = new Swiper(".swiper", {
       centeredSlides: true,
     },
     700: {
-      slidesPerView: 2.2,
+      slidesPerView: 2.1,
       slidesPerGroup: 2,
       spaceBetween: 16,
-      loop: false,
-      centeredSlides: false,
     },
     1100: {
       slidesPerView: 3,

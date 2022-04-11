@@ -1,0 +1,15 @@
+.about__wrapper {
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 700px) {
+  .about__wrapper {
+    padding-bottom: 115px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .about__wrapper {
+    padding-bottom: 80px;
+  }
+}
