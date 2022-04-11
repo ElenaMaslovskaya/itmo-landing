@@ -2,16 +2,16 @@
 const navMenuButton = document.querySelector('.nav__burger-menu');
 const navCloseButton = document.querySelector('.nav__close-button');
 const navList = document.querySelector('.nav__list');
-const navLinkList = navList.querySelectorAll('.nav__link');
+const navLinks = navList.querySelectorAll('.nav__link');
 const labelDropdown = document.querySelector('.nav__label-link');
+const sections = document.querySelectorAll('section[id]')
 
 
 // Open and Close Navigation
 function openMenu() {
   navList.classList.add('nav__list_show');
   navMenuButton.classList.add('nav__burger-menu_hide');
-  navCloseButton.classList.add('nav__close-button_show')
-  
+  navCloseButton.classList.add('nav__close-button_show');
 }
 
 function closeMenu() {
@@ -25,7 +25,7 @@ navCloseButton.addEventListener('click', closeMenu)
 
 
 // Navigate to specific values
-navLinkList.forEach(function(link) {
+navLinks.forEach(function(link) {
   link.addEventListener('click', function(e) {
     
     e.preventDefault();
@@ -44,6 +44,7 @@ navLinkList.forEach(function(link) {
       position = position + navListHeight;
     }
     
+    // Smooth scrolling
     window.scrollTo({
       left: 0,
       top: position,
@@ -54,17 +55,21 @@ navLinkList.forEach(function(link) {
   })
 })
 
-// Add active class to the current button 
-for (let i = 0; i < navLinkList.length; i++) {
-    navLinkList[i].addEventListener('click', function() {
-    const currentLink = document.querySelectorAll('.nav__link_type_active');
-    if (currentLink.length > 0) { 
-      currentLink[0].className = currentLink[0].className.replace(' nav__link_type_active', '');
+// Highlight nav link on scroll
+window.addEventListener('scroll', () => {
+  const scrollY = window.pageYOffset;
+
+  sections.forEach((section) => {
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 100;
+    const sectionId = section.getAttribute('id');
+  
+    if(scrollY > sectionTop && scrollY < sectionTop + sectionHeight) {
+      document.querySelector('.nav__link[href*="' + sectionId + '"]')
+      .classList.add('nav__link_type_active');
+    } else {
+      document.querySelector('.nav__link[href*="' + sectionId + '"]')
+      .classList.remove('nav__link_type_active');
     }
-    this.className += ' nav__link_type_active';
-  });
-}
-
-
-
-
+  })
+})
