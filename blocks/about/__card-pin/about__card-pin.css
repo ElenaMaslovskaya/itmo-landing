@@ -1,0 +1,14 @@
+.about__card-pin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__card-pin {
+    width: 40px;
+    height: 40px;
+  }
+}

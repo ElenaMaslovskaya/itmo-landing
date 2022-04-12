@@ -22,20 +22,23 @@ const swiper = new Swiper(".swiper", {
   breakpoints: {
     300: {
       slidesPerView: 'auto',
+      spaceBetween: 10,
       loop: true,
       centeredSlides: true,
     },
-    700: {
+    768: {
       slidesPerView: 2.1,
       slidesPerGroup: 2,
-      spaceBetween: 16,
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: false,
     },
     1100: {
       slidesPerView: 3,
       slidesPerGroup: 3,
-      spaceBetween: 20,
+      spaceBetween: 32,
       loop: true,
-      centeredSlides: true,
+      centeredSlides: false,
     },
   },
 });
