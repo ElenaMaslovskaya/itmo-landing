@@ -27,81 +27,8 @@
           <!-- Swiper -->
           <div class="swiper about__swiper">
             <!-- Swiper slide container -->
-            <div class="swiper-wrapper">
-              <!-- Slide 1 -->
-              <div class="swiper-slide about__swiper-slide">
-                <div class="about__card">
-                  <img class="about__card-pin" src="./images/AboutPin.svg" alt="">
-                  <div class="about__card-info">
-                    <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                    <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬНО…</h3>
-                    <hr class="about__card-line">
-                    <p class="about__card-news">
-                      Университет ИТМО провел научно-исследовательскую стажировку для группы
-                      магистрантов из Евразийского национального университета имени Л.Н. Гумилева.
-                      Ведущие преподаватели в течение десяти дней рассказывали им об основах машинного
-                      обучения.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Slide 1 -->
-              <div class="swiper-slide about__swiper-slide">
-                <div class="about__card">
-                  <img class="about__card-pin" src="./images/AboutPin.svg" alt="">
-                  <div class="about__card-info">
-                    <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                    <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬНО…</h3>
-                    <hr class="about__card-line">
-                    <p class="about__card-news">
-                      Университет ИТМО провел научно-исследовательскую стажировку для группы
-                      магистрантов из Евразийского национального университета имени Л.Н. Гумилева.
-                      Ведущие преподаватели в течение десяти дней рассказывали им об основах машинного
-                      обучения.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 1 -->
-              <div class="swiper-slide about__swiper-slide">
-                <div class="about__card">
-                  <img class="about__card-pin" src="./images/AboutPin.svg" alt="">
-                  <div class="about__card-info">
-                    <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                    <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬНО…</h3>
-                    <hr class="about__card-line">
-                    <p class="about__card-news">
-                      Университет ИТМО провел научно-исследовательскую стажировку для группы
-                      магистрантов из Евразийского национального университета имени Л.Н. Гумилева.
-                      Ведущие преподаватели в течение десяти дней рассказывали им об основах машинного
-                      обучения.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 1 -->
-              <div class="swiper-slide about__swiper-slide">
-                <div class="about__card">
-                  <img class="about__card-pin" src="./images/AboutPin.svg" alt="">
-                  <div class="about__card-info">
-                    <p class="about__card-date">Понедельник, 5 июля 2021г</p>
-                    <h3 class="about__card-title">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬНО…</h3>
-                    <hr class="about__card-line">
-                    <p class="about__card-news">
-                      Университет ИТМО провел научно-исследовательскую стажировку для группы
-                      магистрантов из Евразийского национального университета имени Л.Н. Гумилева.
-                      Ведущие преподаватели в течение десяти дней рассказывали им об основах машинного
-                      обучения.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              
-             
-             
-              
+            <div class="swiper-wrapper about__swiper-wrapper">
+              <!-- Slides js -->
             </div>
             <!-- Arrows -->
             <div class="swiper-button-prev">
@@ -125,12 +52,24 @@
     </main>
     <footer class="footer"></footer>
   </div>
-
+  <!-- Template news -->
+  <template id="news-template">
+    <div class="swiper-slide">
+      <div class="about__card">
+        <img class="about__card-pin" src="./images/AboutPin.svg" alt="">
+        <div class="about__card-info">
+          <p class="about__card-date"></p>
+          <h3 class="about__card-title"></h3>
+          <hr class="about__card-line">
+          <p class="about__card-news"></p>
+        </div>
+      </div>
+    </div>
+  </template>
   <!-- Javascript -->
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="./pages/swiperAbout.js"></script>
   <script src="./pages/formValidation.js"></script>
 </body>
-
 </html>
