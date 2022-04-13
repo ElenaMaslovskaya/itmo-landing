@@ -1,0 +1,18 @@
+.about__card-news {
+  /* margin: 12px 0 0;  */
+  margin: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000D26;
+}
+
+@media screen and (min-width: 768px) {
+  .about__card-news {
+    font-size: 14px;
+    line-height: 19px;
+    /* margin-top: 20px;  */
+  } 
+}

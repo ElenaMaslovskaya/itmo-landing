@@ -6,14 +6,16 @@
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__wrapper/about__wrapper.css);
-
+@import url(../blocks/about/__swiper/about__swiper.css);
+@import url(../blocks/about/__swiper-slide/about__swiper-slide.css);
+@import url(../blocks/about/__swiper-pagination/about__swiper-pagination.css);
 @import url(../blocks/about/__card/about__card.css);
+@import url(../blocks/about/__card-info/about__card-info.css);
 @import url(../blocks/about/__card-pin/about__card-pin.css);
 @import url(../blocks/about/__card-date/about__card-date.css);
 @import url(../blocks/about/__card-title/about__card-title.css);
 @import url(../blocks/about/__card-line/about__card-line.css);
-@import url(../blocks/about/__card-info/about__card-info.css);
-
+@import url(../blocks/about/__card-news/about__card-news.css);
 @import url(../blocks/about/__arrow/about__arrow.css);
 @import url(../blocks/about/__arrow/_type/about__arrow_left.css);
 @import url(../blocks/about/__arrow/_type/about__arrow_right.css);

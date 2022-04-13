@@ -1,4 +1,4 @@
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".about__swiper", {
   autoHeight: true,
   // Mousewheel control
   mousewheel: true,
@@ -27,7 +27,7 @@ const swiper = new Swiper(".swiper", {
       centeredSlides: true,
     },
     768: {
-      slidesPerView: 2.1,
+      slidesPerView: 'auto',
       slidesPerGroup: 2,
       spaceBetween: 30,
       loop: true,

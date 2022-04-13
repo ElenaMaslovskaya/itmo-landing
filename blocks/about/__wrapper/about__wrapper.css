@@ -5,7 +5,6 @@
 @media screen and (min-width: 768px) {
   .about__wrapper {
     padding-bottom: 115px;
-    background-color: palevioletred;
     margin: 0 auto;
     margin-left: 39px; 
   }
@@ -16,6 +15,5 @@
     width: calc(100% - 2 * 80px);
     margin: 0 auto;
     padding-bottom: 80px;
-    
   }
 }
