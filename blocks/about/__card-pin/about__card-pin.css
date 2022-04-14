@@ -1,13 +1,16 @@
 .about__card-pin {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -11px;
+  right: -10px;
+  z-index: 2;
   width: 32px;
   height: 32px;
 }
 
 @media screen and (min-width: 768px) {
   .about__card-pin {
+    top: -15px;
+    right: -12px;
     width: 40px;
     height: 40px;
   }

@@ -75,11 +75,11 @@ function createNewsCard(newsCardData) {
 
 // ===== Swiper =====
 const swiper = new Swiper(".about__swiper", {
-  autoHeight: true,
+  //autoHeight: true,
   // Mousewheel control
   mousewheel: true,
   // Grab cursor
-  grabCursor: true,
+  //grabCursor: true,
   // Keyboard control
   keyboard: {
     enabled: true,
