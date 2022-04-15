@@ -47,7 +47,7 @@ const newsCardList =  [
   },
   {
     date: 'Понедельник, 5 июля 2021г',
-    title: 'ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬНО…',
+    title: 'ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…',
     news: 'Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели в течение десяти дней рассказывали им об основах машинного обучения.'
   },
 ]
@@ -72,26 +72,26 @@ function createNewsCard(newsCardData) {
 }
 
 
-
 // ===== Swiper =====
 const swiper = new Swiper(".about__swiper", {
-  //autoHeight: true,
+  loop: true,
+  speed: 1000,
   // Mousewheel control
   mousewheel: true,
   // Grab cursor
-  //grabCursor: true,
+  grabCursor: true,
   // Keyboard control
   keyboard: {
     enabled: true,
   },
   // Navigation
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".about__swiper-button-next",
+    prevEl: ".about__swiper-button-prev",
   },
   // Pagination
   pagination: {
-    el: ".swiper-pagination",
+    el: ".about__swiper-pagination",
     clickable: true,
   },
   // Responsive breakpoints
@@ -106,15 +106,17 @@ const swiper = new Swiper(".about__swiper", {
       slidesPerView: 'auto',
       slidesPerGroup: 2,
       spaceBetween: 30,
-      loop: true,
       centeredSlides: false,
     },
     1100: {
       slidesPerView: 3,
       slidesPerGroup: 3,
+      spaceBetween: 10,
+    },
+    1248: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
       spaceBetween: 32,
-      loop: true,
-      centeredSlides: true,
     },
   },
 });

@@ -9,7 +9,23 @@
   line-height: 19px;
   color: #001337;
   text-transform: uppercase;
+  /* text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; */
 }
+
+.about__card-title {
+  width: 248px;
+  max-width: 100%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #001337;
+}
+
+
 
 @media screen and (min-width: 768px) {
   .about__card-title {

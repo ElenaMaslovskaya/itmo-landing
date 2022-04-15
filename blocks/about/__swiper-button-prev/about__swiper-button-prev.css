@@ -1,0 +1,18 @@
+.about__swiper-button-prev {
+  overflow: hidden;
+  top: 68%;
+  transition: all .3s linear;
+}
+
+.about__swiper-button-prev::after {
+  content: "";
+}
+
+.about__swiper-button-prev {
+  left: 20px;
+}
+
+.about__swiper-button-prev:hover {
+  transform: translateX(-5px);
+  opacity: 0.5;
+}

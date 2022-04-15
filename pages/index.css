@@ -17,8 +17,8 @@
 @import url(../blocks/about/__card-line/about__card-line.css);
 @import url(../blocks/about/__card-news/about__card-news.css);
 @import url(../blocks/about/__arrow/about__arrow.css);
-@import url(../blocks/about/__arrow/_type/about__arrow_left.css);
-@import url(../blocks/about/__arrow/_type/about__arrow_right.css);
+@import url(../blocks/about/__swiper-button-prev/about__swiper-button-prev.css);
+@import url(../blocks/about/__swiper-button-next/about__swiper-button-next.css);
 
 /* Lab*/
 @import url(../blocks/root/root.css);
