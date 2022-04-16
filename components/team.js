@@ -4,6 +4,9 @@ new Swiper(".team__slider", {
   slidesPerView: "auto",
   watchSlidesVisibility: true,
   watchOverflow: true,
+  observer: true,
+  observerParents: true,
+  observerSlidesChildren: true,
   pagination: {
     el: ".team__pagination",
     clickable: true,
@@ -16,8 +19,6 @@ new Swiper(".team__slider", {
     768: {
       spaceBetween: 30,
       slidesPerView: "auto",
-      watchSlidesVisibility: true,
-      watchOverflow: true,
     },
     1282: {
       loop: false,
