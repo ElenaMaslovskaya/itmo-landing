@@ -1,0 +1,45 @@
+.education__button .ed-input[type="radio"] {
+    display: none;
+}
+
+.education__button label {
+    display: inline-block;
+    padding: 2px 9px;
+    cursor: pointer;
+    border: 1px solid #E0F0FF;
+    border-radius: 5px;
+    color: white;
+    width: 121px;
+    max-height: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.education__button .ed-input[type="radio"]:checked+label {
+    background-color: #E0F0FF;
+    color: #000D26;
+}
+
+@media screen and (min-width: 768px){
+    .education__button label {
+        padding: 2px 9px;
+        border-radius: 10px;
+        width: 225px;
+        max-height: 44px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+
+@media screen and (min-width: 1280px){
+    .education__button label {
+        padding: 2px 9px;
+        border-radius: 10px;
+        width: 270px;
+        max-height: 50px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
