@@ -1,0 +1,62 @@
+.lab__popup-title-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.lab__popup-title-2 {
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 670px){
+    .lab__popup-title-2{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 27px;
+        margin-top: 0;
+        padding: 0;
+        visibility: visible;
+        width: 201px
+    }
+}
+
+@media screen and (min-width: 670px){
+    .lab__popup-title-1{
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .lab__popup-title-2{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;  
+        margin-bottom: 27px;
+        margin-top: 0;
+        padding: 0;
+        visibility: visible;
+        width: 258px;
+    }
+}
+

@@ -1,0 +1,28 @@
+.lab__popup-pic-container{
+    width: 268px;
+    height: auto; 
+    align-self: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 670px){
+    .lab__popup-pic-container{
+        order:1;
+        height: auto;
+        width: 199px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .lab__popup-pic-container{
+        order:1;
+        width: 400px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+}

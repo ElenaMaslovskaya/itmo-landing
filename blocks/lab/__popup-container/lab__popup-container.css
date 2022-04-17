@@ -1,0 +1,26 @@
+.lab__popup-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 16px;
+}
+
+
+@media screen and (min-width: 670px){
+    .lab__popup-container{
+        padding: 20px;
+        flex-direction: row;
+        width: 690px;
+        
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .lab__popup-container{
+        padding: 20px;
+        flex-direction: row;
+        width: 1110px;
+    }
+}

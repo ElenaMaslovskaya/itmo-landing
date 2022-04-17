@@ -24,5 +24,12 @@
     }
 }
 
-
-
+@media screen and (min-width: 1125px){
+    .lab__card-button:active {
+        background-color: white;
+        color: #009FAC;; 
+        border: none;
+        cursor: pointer;
+        transition: background-color, ease-in;
+    }
+}
