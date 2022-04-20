@@ -1,24 +1,25 @@
-.team__title {
-  color: #000d26;
+.partners__title {
+  color: #fff;
   font-weight: 600;
   font-size: 16px;
-  line-height: 1.375;
+  line-height: 22px;
   text-align: center;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 600px) {
-  .team__title {
+  .partners__title {
     font-size: 24px;
+    line-height: 33px;
     letter-spacing: 0.1px;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .team__title {
+@media screen and (min-width: 1280px) {
+  .partners__title {
     font-size: 36px;
-    line-height: 1.89;
+    line-height: 68px;
   }
 }

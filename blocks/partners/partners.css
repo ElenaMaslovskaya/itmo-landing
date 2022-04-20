@@ -1,0 +1,18 @@
+.partners {
+  background-color: #001337;
+  padding: 40px 16px 0;
+  min-width: 320px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .partners {
+    padding: 60px 39px 0;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  .partners {
+    padding: 80px 0 0;
+  }
+}

@@ -1,0 +1,33 @@
+.partners__label {
+  max-height: 25px;
+  margin: 0 10px;
+  padding: 0;
+  object-position: center;
+  object-fit: contain;
+  flex-shrink: 1;
+}
+
+@media screen and (min-width: 441px) {
+  .partners__label {
+    max-height: 38px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .partners__label {
+    margin: 0;
+    max-height: 32px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .partners__label {
+    max-height: 44px;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  .partners__label {
+    max-height: 48px;
+  }
+}

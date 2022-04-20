@@ -1,0 +1,33 @@
+.partners__text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.partners__text:first-of-type {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .partners__text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+  }
+  .partners__text:first-of-type {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  .partners__text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 920px;
+    margin: 30px auto 0;
+  }
+}
