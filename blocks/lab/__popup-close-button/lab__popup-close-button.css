@@ -1,0 +1,38 @@
+.lab__popup-close-button{
+        width: 24px;
+        height: 24px;
+        background-image: url(../../../images/lab/close.svg);
+        background-color: transparent;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.3s ease-in-out;
+        border: none;
+        position: absolute;
+        left: 265px;
+        top: 15px;
+}
+
+.lab__popup-close-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 670px){
+    .lab__popup-close-button{
+        left: 675px;
+        top: 18px;
+        width: 28px;
+        height: 28px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .lab__popup-close-button{
+        left: 1100px;
+        top: 18px;
+        width: 30px;
+        height: 30px;
+    }
+}

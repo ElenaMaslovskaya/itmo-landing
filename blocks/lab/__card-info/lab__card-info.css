@@ -6,17 +6,14 @@
     line-height: 14px;
     text-align: center;
     letter-spacing: 0.1px;
-    color: #001337;
     margin: 0 9.5px 20px;
 }
-
 
 @media screen and (min-width: 800px){
     .lab__card-info{
         margin: 5px 12px 20px;
     }
 }
-
 
 @media screen and (min-width: 1125px){
     .lab__card-info{
