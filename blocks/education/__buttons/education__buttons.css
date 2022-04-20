@@ -1,0 +1,32 @@
+.education__buttons {
+  border-radius: 5px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  display: flex;
+  margin-bottom: 40px;
+  padding-left: 1.5px;
+  align-self: center;
+}
+
+
+@media screen and (min-width: 768px){
+  .education__buttons{
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 60px;  
+      
+}
+}
+
+@media screen and (min-width: 1280px){
+  .education__buttons{
+    font-size: 18px;
+    line-height: 30px; 
+    margin-bottom: 80px;
+      
+}
+}

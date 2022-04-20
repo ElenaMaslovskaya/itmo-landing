@@ -1,0 +1,13 @@
+.education__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 2*16px);
+}
+
+
+@media screen and (min-width: 600px){
+    .education__container{
+        width: calc(100% - 2*39px)
+}
+}
