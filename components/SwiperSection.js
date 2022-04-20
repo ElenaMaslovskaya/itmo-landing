@@ -1,4 +1,4 @@
-export default class Section {
+export default class SwiperSection {
   constructor({ items, renderer }, swiperSelector) {
     this._container = swiperSelector;
     this._renderedItems = items;
