@@ -2,11 +2,6 @@
   width: 98px;
   height: 33px;
   margin-right: 50px;
-  transition: .3s linear;
-}
-
-.footer__logo:hover {
-  opacity: 0.7;
 }
 
 @media screen and (min-width: 700px) {

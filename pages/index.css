@@ -1,8 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-<<<<<<< HEAD
-=======
 /* root */
 @import url(../blocks/root/root.css);
 
@@ -106,7 +104,7 @@
 @import url(../blocks/feedback/__submit-button/feedback__submit-button.css);
 @import url(../blocks/feedback/__submit-button/_inactive/feedback__submit-button_inactive.css);
 
->>>>>>> d99ba640f9363a34f2037b77d82fbdbb8ffe3551
+
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
