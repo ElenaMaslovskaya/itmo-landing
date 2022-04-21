@@ -1,0 +1,24 @@
+.education__info-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;  
+    color: #000D26
+}
+
+@media screen and (min-width: 768px){
+    .education__info-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 1280px){
+    .education__info-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;  
+}
+}

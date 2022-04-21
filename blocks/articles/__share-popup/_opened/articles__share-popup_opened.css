@@ -1,0 +1,4 @@
+.articles__share-popup_opened {
+  display: flex;
+  opacity: 1;
+}

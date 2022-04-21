@@ -1,0 +1,6 @@
+@media screen and (min-width: 536px) {
+  .team__name-surname {
+    display: inline-block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,4 @@
+.lab__popup_opened{
+    display: flex;
+    visibility: visible;
+}

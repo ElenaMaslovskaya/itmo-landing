@@ -1,0 +1,23 @@
+.projects-grid {
+  padding: 0;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  justify-items: center;
+  justify-content: center;
+  gap: 8px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 30px 30px;
+  }
+}
+@media screen and (min-width: 1125px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
+  }
+}

@@ -1,0 +1,25 @@
+.lab__popup-info{
+    width: 268px;
+    height: 208px;
+}
+
+@media screen and (min-width: 670px){
+    .lab__popup-info{
+        order:2;
+        display: flex;
+        flex-direction: column;
+        width: 461px;
+        height: 361px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .lab__popup-info{
+        order:2;
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+    }
+}
+
