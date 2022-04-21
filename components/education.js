@@ -1,2 +1,0 @@
-//const buttonAsp
-//const buttonMag
