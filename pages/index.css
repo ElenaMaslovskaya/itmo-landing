@@ -57,6 +57,22 @@
 @import url(../blocks/lab/__popup-pic-container/lab__popup-pic-container.css);
 @import url(../blocks/lab/__popup/_opened/lab__popup_opened.css);
 
+
+/* Education*/
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__text-container/education__text-container.css);
+@import url(../blocks/education/__pic/education__pic.css);
+@import url(../blocks/education/__list/education__list.css);
+@import url(../blocks/education/__list-item/education__list-item.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__info-title/education__info-title.css);
+@import url(../blocks/education/__info-container/education__info-container.css);
+@import url(../blocks/education/__description/education__description.css);
+@import url(../blocks/education/__buttons/education__buttons.css);
+@import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__container/education__container.css);
+
 /* Team */
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__title/team__title.css);
@@ -72,6 +88,7 @@
 @import url(../blocks/team/__nav-border/team__nav-border.css);
 @import url(../blocks/team/__navigation/_type/team__navigation_type_next.css);
 @import url(../blocks/team/__navigation/_type/team__navigation_type_prev.css);
+
 
 /* Feedback */
 @import url(../blocks/feedback/feedback.css);
@@ -124,4 +141,3 @@
 @import url(../blocks/projects-grid/__item/_company/projects-grid__item_company_gazprom.css);
 @import url(../blocks/projects-grid/__item/_company/projects-grid__item_company_sberbank.css);
 @import url(../blocks/projects/__filter-item/_activ/projects__filter-item_activ.css);
-
