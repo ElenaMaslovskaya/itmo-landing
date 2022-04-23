@@ -13,12 +13,11 @@
 @media screen and (min-width: 1100px) {
   .about__swiper {
     height: 400px;
-    width: 98%;
   }
 }
 
 @media screen and (min-width: 1248px) {
   .about__swiper {
-    width: 92%;
+    max-width: 1150px;
   }
 }

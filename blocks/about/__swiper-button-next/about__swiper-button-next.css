@@ -10,7 +10,7 @@
 
 .about__swiper-button-next {
   right: 20px;
-}
+} 
 
 .about__swiper-button-next:hover {
   transform: translateX(5px);
