@@ -1,4 +1,4 @@
-.swiper-slide {
+.about__swiper-slide {
   width: 288px;
   height: 280px;
   display: -webkit-box;
@@ -17,14 +17,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .swiper-slide {
+  .about__swiper-slide {
     width: 330px;
     height: 360px;
   }
 }
 
 @media screen and (min-width: 1100px) {
-  .swiper-slide {
+  .about__swiper-slide {
     width: 348px; 
     height: 370px; 
   }

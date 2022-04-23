@@ -1,17 +1,17 @@
-.swiper-pagination-bullet {
+.about__swiper-pagination .swiper-pagination-bullet {
   width: 4px;
   height: 4px;
   background-color: #fff;
   opacity: 0.5;
 }
 
-.swiper-pagination-bullet.swiper-pagination-bullet-active {
+.about__swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #fff;
   opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
-  .swiper-pagination-bullet {
+  .about__swiper-pagination .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
   }

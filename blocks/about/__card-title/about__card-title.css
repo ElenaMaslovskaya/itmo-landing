@@ -9,9 +9,6 @@
   line-height: 19px;
   color: #001337;
   text-transform: uppercase;
-  /* text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden; */
 }
 
 .about__card-title {
@@ -24,8 +21,6 @@
   line-height: 19px;
   color: #001337;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .about__card-title {
