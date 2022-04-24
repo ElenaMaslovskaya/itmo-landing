@@ -1,0 +1,10 @@
+.header__content-info {
+  color: #fff;
+  max-width: 288px;
+}
+
+@media screen and (min-width:600px) {
+  .header__content-info {
+    max-width: 445px;
+  }
+}

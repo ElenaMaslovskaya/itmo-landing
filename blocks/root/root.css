@@ -11,3 +11,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }  
+
+::selection {
+  color: #000D26;
+  background: #009fac;
+}

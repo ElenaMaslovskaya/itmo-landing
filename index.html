@@ -11,13 +11,72 @@
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
   </head>
-
   <body class="root">
-      <header class="header"></header>
+      <header class="header" id="home">
+        <!-- Navigation -->
+        <nav class="nav" id="nav">
+          <div class="nav__content">
+            <!-- Logo And Hamburger Menu -->
+            <div class="nav__header">
+              <button class="nav__burger-menu"></button>
+              <a href="#home">
+                <img class="nav__logo" src="./images/logo/headerLogo.svg" alt="Логотип: Университет ИТМО">
+              </a>
+              <button class="nav__close-button"></button>
+            </div>
+            <!-- Links -->
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#about" class="nav__link">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a href="#lab" class="nav__link">Лаборатория</a>
+              </li>
+              <li class="nav__item">
+                <a href="#projects" class="nav__link">Проекты</a>
+              </li>
+              <li class="nav__item">
+                <a href="#education" class="nav__link nav__link_hide">Образование</a>
+                <!-- Dropdown checkbox -->
+                <input type="checkbox" id="nav__dropdown">
+                <label class="nav__label-link" for="nav__dropdown">Образование</label>
+                <!-- Dropdown list -->
+                <ul class="nav__dropdown-list">
+                  <li class="nav__dropdown-item">
+                    <a href="#master" class="nav__dropdown-link">Магистратура</a>
+                  </li>
+                  <li class="nav__dropdown-item">
+                    <a href="#phd" class="nav__dropdown-link">Аспирантура</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a href="#articles" class="nav__link">Публикации</a>
+              </li>
+              <li class="nav__item">
+                <a href="#team" class="nav__link">Команда</a>
+              </li>
+              <li class="nav__item">
+                <a href="#feedback" class="nav__link">Связаться</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Info Text -->
+        <div class="header__content">
+          <div class="header__content-info">
+            <h1 class="header__title">Когнитивные технологии, машинное обучение</h1>
+            <p class="header__subtitle">Системы прикладного искусственного интеллекта</p>
+            <button class="header__button">
+              <a href="#projects" class="header__link">Наши проекты</a>
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- Main -->
       <main class="content">
-        <section class="intro"></section>
         <section class="about"></section>
-        <section class="lab">
+        <section class="lab" id="lab">
           <h2 class="lab__title">INDUSTRIAL AI RESEARCH LAB</h2>
           <div class="lab__info-container">
             <div class="lab__image-container">
@@ -39,7 +98,6 @@
               государственную поддержку по направлению «Технологии машинного
               обучения и когнитивные технологии».
             </p>
-
             <p class="lab__info">
               Мы изучаем проблемы и выявляем, когда мы работаем вместе с нашими
               клиентами, новые решения находят, не задумываясь. Работая таким
@@ -113,7 +171,7 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects__container">
           <h2 class="projects__title">наши проекты</h2>
           <select
@@ -264,7 +322,7 @@
         </div>
       </section>
       <!-- Education section -->
-<section class="education">
+<section class="education" id="education">
   <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
   <div class="education__container">
       <p class="education__description">
@@ -299,7 +357,7 @@
     </div>
   </div>
 </section>
-      <section class="articles">
+      <section class="articles" id="articles">
         <div class="articles__nav-border">
           <h2 class="articles__title">ПУБЛИКАЦИИ</h2>
           <div class="articles__slider swiper">
@@ -861,7 +919,7 @@
           ></div>
         </div>
       </section>
-      <section class="team">
+      <section class="team" id="team">
         <h2 class="team__title">НАША КОМАНДА</h2>
         <div class="team__nav-border">
           <div class="team__slider swiper">
@@ -1258,10 +1316,11 @@
         <p class="footer__copyright">Сделано студентами Яндекс. Практикума</p>
       </div>
     </footer>
-
+  
     <!-- Javascript -->
-    <script src="./pages/formValidation.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./components/nav.js"></script>
+    <script src="./components/formValidation.js"></script>
     <script src="./components/team.js"></script>
     <script src="./components/articles.js"></script>
   </body>
