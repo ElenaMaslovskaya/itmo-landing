@@ -55,6 +55,7 @@ navLinks.forEach(function(link) {
   })
 })
 
+
 // Highlight nav link on scroll
 window.addEventListener('scroll', () => {
   const scrollY = window.pageYOffset;
